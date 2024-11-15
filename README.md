@@ -107,7 +107,7 @@ This pipeline is beneficial for businesses in the car rental industry. It provid
 5. Check Snowflake for the updated data in the **`rentals_fact`** and **`customer_dim`** tables.
 
 ### Running the PySpark Job Manually
-You can also run the PySpark job manually on Dataproc using the following command:
+We can also run the PySpark job manually on Dataproc using the following command:
 
 ```bash
 gcloud dataproc jobs submit pyspark --cluster YOUR_CLUSTER_NAME \
